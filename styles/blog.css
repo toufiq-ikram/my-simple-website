@@ -1,3 +1,21 @@
+.header {
+    height: 500px;
+    color: darkgreen;
+    /* background-color: blanchedalmond; */
+    /* background-image: url("image css/moon.avif"); */
+    background-image: url('../italy-3840x2160-coast-5k-4k-wallpaper-8k-tyrrhenian-sea-houses-sky-560 (2).jpg');
+    /* background-image: url('../image/types_of_coffee_91a828a5-7ff3-427d-acaa-c8b7289c9e5a_1024x.webp'); */
+    /* background-image: url('../image/developers/autumn-forest-3840x2160-4k-hd-wallpaper-leaves-trees-lake-rocks-beach-578\ \(1\).jpg'); */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: 200px; */
+    /* background-size: 50%; */
+    /* background-size: 100%; */
+}
+
 div {
     background-color: greenyellow;
     padding: 30px;
@@ -8,4 +26,75 @@ div {
 .image {
     /* width: 50px; */
     width: 50%;
+}
+
+.blog {
+    text-align: justify;
+    background-color: bisque;
+    border: 10px solid tomato;
+    /* border: 10px dotted tomato; */
+    /* border: 10px double tomato; */
+    /* border: 10px dashed tomato; */
+    /* border-top: 15px solid tomato; */
+    /* border-bottom: 15px solid tomato; */
+    /* border-left: 15px solid tomato; */
+    /* border-right: 15px solid yellowgreen; */
+    /* border-top: none; */
+    /* border-bottom: none; */
+    /* border-left: none; */
+    /* border-right: none; */
+    border-radius: 15px;
+    margin: 30px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    /* margin: 10px (top+bottom) 50px (left+right); */
+    /* margin: 500px (top) 20px (left+right) 5px (bottom); */
+    /* margin: 500px (top) 50px (right) 100px (bottom) 5px (left); */
+    /* margin: 10px 50px 300px; */
+    /* margin: 100px 50px 300px 10px; */
+    padding: 100px;
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+    /* padding: 10px (top+bottom) 50px (left+right); */
+    /* padding: 500px (top) 20px (left+right) 5px (bottom); */
+    /* padding: 500px (top) 50px (right) 100px (bottom) 5px (left); */
+    /* padding: 10px 500px; */
+    /* padding: 10px 500px 700px; */
+    /* padding: 10px 250px 50px 1000px; */
+    box-shadow: 10px 10px 20px blueviolet;
+    /* box-shadow: 10px 10px blueviolet; */
+    /* (being to box-shadow at least set 2 type px) */
+}
+
+.opinion {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px solid darkmagenta;
+    background-color: beige;
+    margin: 100px;
+    padding: 50px;
+    box-shadow: 10px 10px;
+    /* display: block; */
+    /* display: inline; */
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+.meaning {
+    border: 2px solid purple;
+    /* margin: 20px; */
+    /* inline element ---> margin (only left=right) not top and bottom */
+    padding: 20px;
+    height: 60px;
+    /* display: block; */
+    /* display: inline-block */
+    /* display: none; */
+}
+
+.box {
+    display: inline;
 }
